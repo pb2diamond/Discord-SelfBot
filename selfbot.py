@@ -69,4 +69,4 @@ async def givecookie(ctx, user: discord.Member): #run "++givecookie" to run the 
      
     
 ##BOT TOKEN##
-bot.run ("NDc2MDUwMTMyOTk2MDYzMjMy.DmhApA.p2gRgCyB1APn_1IXjBJNcIusQP8")
+bot.run (read_config('token'), bot=False)
